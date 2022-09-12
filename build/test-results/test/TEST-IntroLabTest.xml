@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntroLabTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-12T23:51:32" hostname="Eric-Cuis-MacBook-Pro.local" time="0.022">
+  <properties/>
+  <testcase name="testEricCui" classname="IntroLabTest" time="0.022">
+    <failure message="org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds
+	at java.base@11.0.16.1/java.lang.ref.Reference.&lt;init&gt;(Reference.java:395)
+	at java.base@11.0.16.1/java.lang.ref.WeakReference.&lt;init&gt;(WeakReference.java:57)
+	at java.base@11.0.16.1/java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry.&lt;init&gt;(MethodType.java:1332)
+	at java.base@11.0.16.1/java.lang.invoke.MethodType$ConcurrentWeakInternSet.get(MethodType.java:1279)
+	at java.base@11.0.16.1/java.lang.invoke.MethodType.makeImpl(MethodType.java:300)
+	at java.base@11.0.16.1/java.lang.invoke.MethodType.insertParameterTypes(MethodType.java:410)
+	at java.base@11.0.16.1/java.lang.invoke.DirectMethodHandle.make(DirectMethodHandle.java:81)
+	at java.base@11.0.16.1/java.lang.invoke.DirectMethodHandle.make(DirectMethodHandle.java:126)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandles$Lookup.getDirectFieldCommon(MethodHandles.java:2365)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandles$Lookup.getDirectField(MethodHandles.java:2351)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandles$Lookup.findGetter(MethodHandles.java:1419)
+	at java.base@11.0.16.1/java.lang.invoke.ClassSpecializer$Factory.findGetter(ClassSpecializer.java:896)
+	at java.base@11.0.16.1/java.lang.invoke.ClassSpecializer$Factory.findGetters(ClassSpecializer.java:905)
+	at java.base@11.0.16.1/java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer.java:933)
+	at java.base@11.0.16.1/java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer.java:485)
+	at java.base@11.0.16.1/java.lang.invoke.ClassSpecializer.findSpecies(ClassSpecializer.java:194)
+	at java.base@11.0.16.1/java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(BoundMethodHandle.java:352)
+	at java.base@11.0.16.1/java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaFormEditor.java:388)
+	at java.base@11.0.16.1/java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(LambdaFormEditor.java:721)
+	at java.base@11.0.16.1/java.lang.invoke.LambdaFormEditor.foldArgumentsForm(LambdaFormEditor.java:844)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandles.foldArguments(MethodHandles.java:4323)
+	at java.base@11.0.16.1/java.lang.invoke.StringConcatFactory$MethodHandleInlineCopyStrategy.generate(StringConcatFactory.java:1600)
+	at java.base@11.0.16.1/java.lang.invoke.StringConcatFactory.generate(StringConcatFactory.java:756)
+	at java.base@11.0.16.1/java.lang.invoke.StringConcatFactory.doStringConcat(StringConcatFactory.java:665)
+	at java.base@11.0.16.1/java.lang.invoke.StringConcatFactory.makeConcatWithConstants(StringConcatFactory.java:581)
+	at java.base@11.0.16.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+	at java.base@11.0.16.1/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
+	at java.base@11.0.16.1/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+	at java.base@11.0.16.1/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:99)
+	at java.base@11.0.16.1/java.lang.invoke.CallSite.makeSite(CallSite.java:307)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:258)
+	at java.base@11.0.16.1/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:248)
+	at app//IntroLab.printLabMessage(IntroLab.java:25)
+	at app//IntroLab.cuiHaoQi(IntroLab.java:53)
+	at app//IntroLabTest.testEricCui(IntroLabTest.java:32)
+	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:288)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:282)
+	at java.base@11.0.16.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.16.1/java.lang.Thread.run(Thread.java:829)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
