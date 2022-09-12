@@ -49,10 +49,13 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String kimsu134() {
+        return printLabMessage("Hello", "Friend!", true, "Welcome to the lab!");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
+        System.out.println(kimsu134());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
