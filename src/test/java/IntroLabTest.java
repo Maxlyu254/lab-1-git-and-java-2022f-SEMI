@@ -28,7 +28,7 @@ public class IntroLabTest {
     @Test(timeout = 10)
     public void testMyStudent() {
         String testString = "Hello World!";
-        String actual = "Hello Friends!";
+        String actual = "Hello! My name is Friend!! I like cats more than dogs! Welcome to the lab!";
         assertEquals(testString, actual);
     }
     /* TODO: Write a test case for the method you wrote in IntroLab.
