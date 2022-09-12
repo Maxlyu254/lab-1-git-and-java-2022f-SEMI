@@ -4,8 +4,6 @@
  * Complete the TODO in this file!
  */
 
-//This is an intro
-
 import org.junit.*;
 
 import static org.junit.Assert.*;
@@ -27,6 +25,12 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test(timeout = 10)
+    public void testMyStudent() {
+        String testString = "Hello World!";
+        String actual = "Hello Friends!";
+        assertEquals(testString, actual);
+    }
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
