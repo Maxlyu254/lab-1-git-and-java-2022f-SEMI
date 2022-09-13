@@ -25,7 +25,7 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 100)
     public void testEricCui() {
         String expected = "Hello! My name is Eric Cui! " +
                 "I like cats more than dogs! Welcome to CSC207!";
